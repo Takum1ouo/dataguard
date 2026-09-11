@@ -1,0 +1,11 @@
+{
+  "required": ["id", "name", "email"],
+  "unique": ["id", "email"],
+  "types": {
+    "id": "integer",
+    "age": "integer",
+    "score": "number",
+    "name": "string",
+    "email": "string"
+  }
+}
